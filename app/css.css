@@ -1,0 +1,43 @@
+html {
+    font-size: small;
+}
+body {
+    font-family: Arial, Helvetica;
+    line-height: 1.6;
+    background: white;
+    color: #333;
+}
+
+button {
+    width: 10rem;
+    background: royalblue;
+    border: 0;
+    color: white;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: .95;
+}
+
+button:first-child {
+    float: left;
+}
+
+button:last-of-type {
+    float: right;
+}
+
+.person {
+    clear: both;
+}
+
+dd {
+    font-size: larger;
+    margin: 0 0 .5rem 2rem;
+}
+dt {
+    color: #666;
+}
